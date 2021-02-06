@@ -16,22 +16,22 @@ $(document).ready(function(){
     autoplayTimeout:3000,
     dots:false,
     nav:true,
-    responsiveClass:true,
+    margin: 10,
     responsive:{
         0:{
             items:1,
             nav:true
         },
         600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:5,
-            nav:true,
-            loop:false
-        },
+          items:2,
+          nav:true
       },
+      1000:{
+        items:3,
+        nav:true
+    },
+        
+    },
     navText:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
    });
 
