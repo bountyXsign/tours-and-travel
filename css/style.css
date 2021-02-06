@@ -471,6 +471,17 @@ cursor: pointer;
      .toggle-collapse{
          display: initial;
      }
+     .site-content{
+        display: grid;
+        grid-template-columns: 100%;
+        }
+        footer .container{
+            display: grid;
+            grid-template-columns:repeat(1, 1fr);
+        } 
+        .move-up{
+            top: 88%;
+        }
  }
 
  
