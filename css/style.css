@@ -433,6 +433,7 @@ h2{
 .footer>.rights{
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
 }
 
 .footer>.rights>h4>a{
